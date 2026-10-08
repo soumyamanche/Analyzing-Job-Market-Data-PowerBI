@@ -1,156 +1,88 @@
-\# Analyzing Job Market Data in Power BI
-
-
+# Analyzing Job Market Data in Power BI
 
 A Power BI project analyzing data science job market data to understand job postings, salaries, experience levels, job titles, and in-demand skills.
 
+## Dashboard
 
+### Job Level Analysis
 
-\## Dashboard
+![Job Level Analysis](imgs/job-level-analysis.png)
 
+### Job Titles
 
+![Job Titles](imgs/job-titles.png)
 
-\### Job Level Analysis
+### Salary Analysis
 
-!\[Job Level Analysis](Imgs/job-level-analysis.png)
+![Salary Analysis](imgs/salary-analysis.png)
 
+### Skill Analysis
 
+![Skill Analysis](imgs/skill-analysis.png)
 
-\### Job Titles
+### Skill Likelihood
 
-!\[Job Titles](Imgs/job-titles.png)
+![Skill Likelihood](imgs/Skill%20Likelihood.png)
 
+## What I Analyzed
 
+- Job postings by experience level
+- Job posting trends over time
+- Job titles and job demand
+- Salary ranges and average pay
+- Salary vs. years of experience
+- Skills required across job postings
+- Skill demand and trends over time
+- Company and industry information
 
-\### Salary Analysis
-
-!\[Salary Analysis](Imgs/salary-analysis.png)
-
-
-
-\### Skill Analysis
-
-!\[Skill Analysis](Imgs/skill-analysis.png)
-
-
-
-\## What I Analyzed
-
-
-
-\- Job postings by experience level
-
-\- Job posting trends over time
-
-\- Job titles and job demand
-
-\- Salary ranges and average pay
-
-\- Salary vs. years of experience
-
-\- Skills required across job postings
-
-\- Skill demand and trends over time
-
-\- Company and industry information
-
-
-
-\## Data Preparation
-
-
+## Data Preparation
 
 Used Power Query to:
 
+- Clean and transform the job posting data
+- Handle missing and inconsistent values
+- Prepare job skills for analysis
+- Split skills into individual rows
+- Standardize skill names such as `power_bi` and `powerbi`
 
-
-\- Clean and transform the job posting data
-
-\- Handle missing and inconsistent values
-
-\- Prepare job skills for analysis
-
-\- Split skills into individual rows
-
-\- Standardize skill names such as `power\_bi` and `powerbi`
-
-
-
-\## DAX
-
-
+## DAX
 
 Created measures and calculations to analyze:
 
+- Posting Count
+- Skill Count
+- Average Pay
+- % Skill in Posting
+- Salary and experience relationships
 
+## Tools Used
 
-\- Posting Count
+- Power BI
+- Power Query
+- DAX
+- Data Visualization
 
-\- Skill Count
+## Project Source
 
-\- Average Pay
+This project was completed as part of a **DataCamp case study** on analyzing job market data.
 
-\- % Skill in Posting
-
-\- Salary and experience relationships
-
-
-
-\## Tools Used
-
-
-
-\- Power BI
-
-\- Power Query
-
-\- DAX
-
-\- Data Visualization
-
-
-
-\## Project Source
-
-
-
-This project was completed as part of a DataCamp case study on analyzing job market data.
-
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 ```text
-
 Analyzing-Job-Market-Data-PowerBI
-
 │
-
 ├── PowerBI
-
-│   └── Job\_Market\_Analysis.pbix
-
+│   └── Job_Market_Analysis.pbix
 │
-
 ├── Dataset
-
-│   └── job\_postings.csv
-
+│   └── job_postings.csv
 │
-
-├── Imgs
-
+├── imgs
 │   ├── job-level-analysis.png
-
 │   ├── job-titles.png
-
 │   ├── salary-analysis.png
-
+│   ├── Skill Likelihood.png
 │   └── skill-analysis.png
-
 │
-
 └── README.md
-
+```
